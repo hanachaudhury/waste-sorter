@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: watson-waste-sorter-terrific-panther
+  host: watson-waste-sorter-terrific-panther
+  disk_quota: 1024M
+  services:
+  - visual-recognition-wws
+  buildpack: python_buildpack
